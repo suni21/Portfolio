@@ -77,17 +77,13 @@ export default function Home() {
 
           </div>
           <div className='text-5xl flex justify-center gap-16'>
-           
-          <a className='i-1' href='https://www.linkedin.com/in/suniti-16852b1b7/' target='_blank'>
-                <AiFillLinkedin></AiFillLinkedin>
-                </a>
-                <a className='i-2' href='https://github.com/suni21' target='_blank'>
-                <AiFillGithub></AiFillGithub></a>
+            <AiFillLinkedin></AiFillLinkedin>
+            <AiFillGithub></AiFillGithub>
           </div>
           {/* text-md py-2 leading-2 text-gray-800  max-w-xl */}
         </section>
         <section>
-          <div className=' text-center sm:text-left mt-10 mb-5 before:block before:w-48 before:h-3 before:mb-3 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-violet-400'>
+          <div className='text-center sm:text-left mt-10 mb-5 before:block before:w-48 before:h-3 before:mb-3 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-violet-400'>
             <h3 className='text-4xl font-semibold ml-2 leading-8'> Websites</h3>
             {/* <div className='flex items-center'> */}
             <p className=' text-2xl text-justify px-40 py-5'>
@@ -212,7 +208,7 @@ export default function Home() {
               <a href="#">
 
                 <img
-                  className="rounded-t-lg  w-28 ml-14 py-4"
+                  className="rounded-t-lg  w-28 ml-20 py-4"
                   src="images/bhagwadgita.png" />
               </a>
               <div className="p-2">
@@ -222,12 +218,12 @@ export default function Home() {
                   Bhagavad Gita App
                 </h5>
                 <p className="mb-4 w-auto text-sm">
-                  As our evolving world shifts more towards digital platforms comes awareness regarding just how significant it is to have access to an application.
+                  As our evolving world shifts more towards digital platforms comes awareness regarding just how significant it is to have access to an application devoted wholly towards this impressive teaching.
                 </p>
 
-                <button type="button" className="bg-gray-400 hover:bg-gray-800 shadow-lg shadow-gray-400/50 rounded-xl w-16 text-white ">
+                {/* <button type="button" className="bg-gray-400 hover:bg-gray-800 shadow-lg shadow-gray-400/50 rounded-xl w-16 text-white ">
                   Link
-                </button>
+                </button> */}
               </div>
             </div>
             {/* Card2 */}
@@ -243,8 +239,7 @@ export default function Home() {
                   Portfolio Page
                 </h5>
                 <p className="mb-4 w-auto text-sm">
-                  Used Reactjs(Next.js), tailwind.
-                  For the purpose of ganing more knowledge to the frontend part by creating a portfolio page.
+                  Used Reactjs(Next.js) to create a portfolio page.
                 </p>
 
                 <button type="button" className="bg-gray-400 hover:bg-gray-800 shadow-lg shadow-gray-400/50 rounded-xl w-16 text-white ">
@@ -259,20 +254,19 @@ export default function Home() {
               <a href="#">
                 <img
                   className="rounded-t-lg  w-28 ml-14 py-4"
-                  src="images/checklist.png" />
+                  src="images/to-do.jpg" />
               </a>
               <div className="p-2">
                 <h5
                   className="mb-2 text-xl font-medium leading-tight">
-                  Check List
+                  Clone app
                 </h5>
                 <p className="mb-4 w-auto text-sm">
-                Used React.js, css and material ui.
-                An web applications helps to remember diffrent things that needs to be done or bought.
+                  As our evolving world shifts more towards digital platforms comes awareness regarding just how significant it is to have access to an application devoted wholly towards this impressive teaching.
                 </p>
 
-                <button  type="button" className="bg-gray-400 hover:bg-gray-800 shadow-lg shadow-gray-400/50 rounded-xl w-16 text-white ">
-                 <a href='https://to-do-list-suni21.netlify.app/'> Link</a>
+                <button type="button" className="bg-gray-400 hover:bg-gray-800 shadow-lg shadow-gray-400/50 rounded-xl w-16 text-white ">
+                  Link
                 </button>
               </div>
             </div>
@@ -280,19 +274,20 @@ export default function Home() {
             <div className="block rounded-xl w-60 group max-w-xs mx-auto p-2 bg-violet-950 ring-1 ring-slate-900/5 shadow-lg hover:bg-violet-300 hover:ring-violet-300 text-white transition duration-100 hover:scale-110  ">
               <a href="#">
                 <img
-                  className="rounded-t-lg  w-28 ml-14 py-4"
-                  src="images/shopping.png" />
+                  className="rounded-t-lg  w-28 ml-20 py-4"
+                  src="images/bhagwadgita.png" />
               </a>
               <div className="p-2">
                 <h5
                   className="mb-2 text-xl font-medium leading-tight">
-                  Shop web app
+                  Clone app
                 </h5>
                 <p className="mb-4 w-auto text-sm">
-                Used React.js, css and material ui.                </p>
+                  As our evolving world shifts more towards digital platforms comes awareness regarding just how significant it is to have access to an application devoted wholly towards this impressive teaching.
+                </p>
 
                 <button type="button" className="bg-gray-400 hover:bg-gray-800 shadow-lg shadow-gray-400/50 rounded-xl w-16 text-white ">
-                 <a href='https://suni21-makeupwebsite.netlify.app/ ' > Link</a>
+                  Link
                 </button>
               </div>
             </div>
@@ -316,11 +311,7 @@ export default function Home() {
         <section>
           <div className='text-center sm:text-left mt-48 before:block before:w-48 before:h-3 before:mb-3 before:rounded-md before:mx-auto'>
             {/* <h3 className='text-4xl font-semibold ml-1 mb-10 '>Certifications</h3> */}
-            <footer className="bg-white border-t border-gray-300 dark:border-gray-700">
-          <div className="container mx-auto py-4 px-5 flex justify-center">
-            <span className="text-sm text-gray-600 dark:text-gray-400">Made by Suniti ❤️ </span>
-          </div>
-        </footer>
+
           </div>
         </section>
       </main>
